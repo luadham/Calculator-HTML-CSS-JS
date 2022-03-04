@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    height: 100vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+sup {
+    vertical-align: top;
+    font-size: 0.6em;
+}
+
+sub {
+    vertical-align: bottom;
+}
+
+.container {
+    margin: auto;
+    background-color: #33373b;
+    border-radius: 0.5em;
+}
+
+.container .result {
+    background-color: #3d4e53;
+    color: #fff;
+    font-size: 12px;
+    padding: 1em 0 0 1em;
+    height: 100px;
+    border-radius: 0.5em 0.5em 0 0;
+}
+
+.container .buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+}
+
+.container .buttons .top-buttons {
+    margin-bottom: 1em;
+}
+
+.container .buttons .top-buttons .first-row {
+    margin-bottom: 1em;
+}
+
+.container .buttons .middle-buttons {
+    display: flex;
+}
+
+.container .buttons .middle-buttons .left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.container .buttons .middle-buttons .right {
+    margin-left: 4px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.container .buttons .middle-buttons .three-numbers {
+    display: flex;
+    column-gap: 4px;
+}
+
+.container .buttons .btn {
+    border: none;
+    padding: 8px 0;
+    width: 64px;
+    background-color: #08090a;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container .buttons .equal-btn {
+    background-color: #10466e;
+}
+
+
+.container .buttons .btn:hover {
+    background-color: #627074;
+}
+
+.footer {
+    margin-top: 1em;
+}

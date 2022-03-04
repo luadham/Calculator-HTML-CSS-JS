@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Calculator</title>
+</head>
+
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Result Section -->
+        <div class="result">
+            <h1 id="expression"></h1>
+        </div>
+        <!-- End of Result Section -->
+
+        <!-- Buttons Section -->
+        <div class="buttons">
+            <div class="top-buttons">
+                <div class="first-row">
+                    <button class="btn" id="rem">%</button>
+                    <button class="btn" id="clear">CE</button>
+                    <button class="btn" id="remove-last-operation">C</button>
+                    <button class="btn" id="delete-last">
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                </div>
+                <div class="second-row">
+                    <button class="btn" id="fraction"><sup>1</sup>&frasl;<sub>x</sub></button>
+                    <button class="btn" id="squared">x<sup>2</sup></button>
+                    <button class="btn" id="root">&radic;</button>
+                    <button class="btn" id="div"><i class="fa-solid fa-divide"></i></button>
+                </div>
+            </div>
+            <div class="middle-buttons">
+                <div class="left" id="numbers">
+                    <div class=" three-numbers">
+
+                    </div>
+                    <div class=" three-numbers">
+
+                    </div>
+                    <div class=" three-numbers">
+
+                    </div>
+                </div>
+                <div class="right">
+                    <button class="btn" id="mul">x</button>
+                    <button class="btn" id="sub"> - </button>
+                    <button class="btn" id="add">+</button>
+                </div>
+            </div>
+            <div class="footer row">
+                <button class="btn" id="neg">+/-</button>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button class="btn equal-btn" id="equal">=</button>
+            </div>
+        </div>
+        <!-- End of Buttons Section -->
+    </div>
+    <!-- End of Main Container -->
+    <script src="/script.js"></script>
+</body>
+
+</html>
